@@ -1,0 +1,11 @@
+.section-index { max-width: 900px; margin: 2rem auto; padding: 0 24px; }
+.section-index h1 { margin-bottom: 16px; }
+.section-index ul { list-style: none; padding: 0; margin: 24px 0; }
+.section-index li { border-top: 1px solid #eee; }
+.section-index li a { display: block; padding: 14px 0; overflow-wrap: anywhere; }
+@media (max-width: 600px) {
+  header { padding: 16px; display: block; }
+  header .logo { display: inline-block; max-width: 100%; }
+  header nav { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-top: 12px; }
+  header nav a { display: inline-flex; align-items: center; min-height: 44px; margin: 0; }
+}
